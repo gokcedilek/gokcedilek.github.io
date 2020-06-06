@@ -18,8 +18,8 @@ navbar-links:
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
   School Projects:
-    - Quadtree: 'projects/2020-06-06-quadtree'
-    - Flood Fill: 'projects/2020-06-06-floodfill'
+    - Quadtree: 'projects/quadtree/quadtree'
+    - Flood Fill: 'projects/floodfill/floodfill'
     - Chair Factory: 'projects/2020-06-06-chairfactory'
   Personal Projects:
     - nothingToSeeHere: 'https://www.google.com/'
