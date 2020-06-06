@@ -4,7 +4,7 @@
 title: My portfolio
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+#description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
 author: Gokce Dilek
@@ -20,10 +20,11 @@ navbar-links:
   School Projects:
     - Quadtree: 'projects/quadtree/quadtree'
     - Flood Fill: 'projects/floodfill/floodfill'
-    - Chair Factory: 'projects/2020-06-06-chairfactory'
+    - Chair Factory: 'projects/chairfactory/chairfactory'
+    - Debugger: ''
   Personal Projects:
-    - nothingToSeeHere: 'https://www.google.com/'
-  Resume: 'https://github.com/gokcedilek/resume' #this should eventually link to a webpage!
+    - Not Yet: 'https://www.google.com/'
+  Resume: '' #this should eventually link to a webpage-like resume!
   About Me: 'aboutme'
 
 # --- Logo --- #
