@@ -18,9 +18,9 @@ navbar-links:
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
   School Projects:
-    - Quadtree: '_posts/2020-06-06-quadtree'
-    - Flood Fill: '_posts/2020-06-06-floodfill'
-    - Chair Factory: '_posts/2020-06-06-chairfactory'
+    - Quadtree: 'projects/2020-06-06-quadtree'
+    - Flood Fill: 'projects/2020-06-06-floodfill'
+    - Chair Factory: 'projects/2020-06-06-chairfactory'
   Personal Projects:
     - nothingToSeeHere: 'https://www.google.com/'
   Resume: 'https://github.com/gokcedilek/resume' #this should eventually link to a webpage!
