@@ -16,12 +16,12 @@ This quad-tree data structrue is an application of image compression, since the 
 
 See if you can figure out which of these is the unbalanced tree, and the self-balancing tree!
 
-[![First example]({{ site.url }}/projects/quadtree/out-smallFrame.png)]
-![First example](projects/project_images/out-smallFrameBal.png)
+![First example]({{ site.url }}/projects/quadtree/out-smallFrame.png)
+![First example]({{ site.url }}/projects/quadtree/out-smallFrameBal.png)
 
 How about now?:)
 
-![Second example](projects/project_images/out-ada.png)
-![Second example](projects/project_images/out-adaBal.png)
+![Second example]({{ site.url }}/projects/quadtree/out-ada.png)
+![Second example]({{ site.url }}/projects/quadtree/out-adaBal.png)
 
 #how add tags! c++, recursion,
