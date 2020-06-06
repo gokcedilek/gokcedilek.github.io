@@ -1,13 +1,13 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: My portfolio
 
 # Short description of your site
 description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
-author: Some Person
+author: Gokce Dilek
 
 # --- List of links in the navigation bar --- #
 
@@ -17,10 +17,14 @@ navbar-links:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
+  School Projects:
+    - Quadtree: '_posts/2020-06-06-quadtree'
+    - Flood Fill: '_posts/2020-06-06-floodfill'
+    - Chair Factory: '_posts/2020-06-06-chairfactory'
+  Personal Projects:
+    - nothingToSeeHere: 'https://www.google.com/'
+  Resume: 'https://github.com/gokcedilek/resume' #this should eventually link to a webpage!
   About Me: 'aboutme'
-  Experience:
-    - Resume: 'https://github.com/gokcedilek/resume'
-    - Trial: 'https://www.google.com/'
 
 # --- Logo --- #
 
