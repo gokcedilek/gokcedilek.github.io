@@ -26,6 +26,8 @@ navbar-links:
     - Financial Literacy: 'projects/cmd-f-2020/cmdf2020'
   Personal Projects:
     - Not Yet: 'https://www.google.com/'
+  Work Experience:
+    - Not Yet: 'https://www.google.com/'
   Resume: '' #this should eventually link to a webpage-like resume!
   About Me: 'aboutme'
 
