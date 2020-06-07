@@ -28,6 +28,7 @@ navbar-links:
     - Not Yet: 'https://www.google.com/'
   Work Experience:
     - Not Yet: 'https://www.google.com/'
+    - Bioinformatics: 'work-experience/btl/btl'
   Resume: '' #this should eventually link to a webpage-like resume!
   About Me: 'aboutme'
 
