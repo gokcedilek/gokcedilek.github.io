@@ -22,6 +22,8 @@ navbar-links:
     - Flood Fill: 'projects/floodfill/floodfill'
     - Chair Factory: 'projects/chairfactory/chairfactory'
     - Debugger: ''
+    - Our Robot: 'projects/enph253/enph253-2019'
+    - Financial Literacy: 'projects/cmd-f-2020/cmdf2020'
   Personal Projects:
     - Not Yet: 'https://www.google.com/'
   Resume: '' #this should eventually link to a webpage-like resume!
