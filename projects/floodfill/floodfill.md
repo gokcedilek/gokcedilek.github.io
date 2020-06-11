@@ -8,6 +8,8 @@ tags: [c++][recursion][data structures]
 comments: true
 ---
 
+Timeline: Oct 2019
+
 I did this project for [UBC's CPSC 221 course](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=221). The detailed description of this project can be found [here](https://www.students.cs.ubc.ca/~cs-221/2019W1/mps/p2/), and my code for this project can be found [here](https://github.com/gokcedilek/Flood-Fill-using-BFS-DFS).
 
 In this project, I implemented a [flood fill](https://en.wikipedia.org/wiki/Flood_fill) algorithm that performs [BFS](https://en.wikipedia.org/wiki/Breadth-first_search) and [DFS](https://en.wikipedia.org/wiki/Depth-first_search) traversal of coordinates in an image, starting from a randomly generated set of center coordinates.
