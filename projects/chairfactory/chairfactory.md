@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: project
 title: Chair Factory
 # subtitle: Each post also has a subtitle
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
+timeline: Jan - Mar 2020
+skills: [C++] [C] [R]
 tags: [relational databases][sql]
 comments: true
 ---
