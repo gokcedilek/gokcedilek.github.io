@@ -10,6 +10,8 @@ tags: [relational databases][sql]
 comments: true
 ---
 
+Timeline: Jan - Mar 2020
+
 I did this project with two friends for [UBC's CPSC 304 course](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=304), and the code for our project can be found [here](https://github.com/gokcedilek/CPSC304-project).
 
 In this project, we simulated the working of a simple chair factory. We created a web application using the [Java Spring Framework](https://docs.spring.io/spring/docs/current/spring-framework-reference/overview.html) on the backend, with [ElephantSQL](https://www.elephantsql.com/) to host our PostgreSQL database, and [pgAdmin](https://www.pgadmin.org/) to manage the data in our database. On the frontend, we used HTML, CSS, and jQuery. I worked on the backend of the application, specifically on implementing the API endpoints and the database queries.
