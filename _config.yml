@@ -21,7 +21,7 @@ navbar-links:
     - Quadtree: 'projects/quadtree/quadtree'
     - Flood Fill: 'projects/floodfill/floodfill'
     - Chair Factory: 'projects/chairfactory/chairfactory'
-    - Debugger: ''
+    - Debugger: 'projects/y86-debugger/debugger'
     - Our Robot: 'projects/enph253/enph253-2019'
     - Financial Literacy: 'projects/cmd-f-2020/cmdf2020'
   Personal Projects:
