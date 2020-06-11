@@ -17,16 +17,14 @@ layout: base
         <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
         {% endfor %} {% else %} {{ page.tags | join: ", " }} {% endif %}
       </div>
-      {% endif %} {% if page.timeline %}
+      {% endif %}
       <div class="row">
         <h4>Timeline! {{ page.timeline }}</h4>
       </div>
-      {% endif %} {% if page.skills.size > 0 %}
       <div class="row">
         <h4>Skills! {{ page.skills[0] }}</h4>
-        >
       </div>
-      {% endif %} {% include comments.html %}
+      {% include comments.html %}
     </div>
   </div>
 </div>
