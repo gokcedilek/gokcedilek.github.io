@@ -25,9 +25,9 @@ navbar-links:
     - Our Robot: 'projects/enph253/enph253-2019'
     - Financial Literacy: 'projects/cmd-f-2020/cmdf2020'
   Personal Projects:
-    - Not Yet: 'projects/little-wonders/littlewonders'
+    - Little Wonders: 'projects/little-wonders/littlewonders'
   Work Experience:
-    - Not Yet: 'https://www.google.com/'
+    - Broadcom: 'https://www.google.com/'
     - Bioinformatics: 'work-experience/btl/btl'
   Resume: '' #this should eventually link to a webpage-like resume!
   About Me: 'aboutme'
