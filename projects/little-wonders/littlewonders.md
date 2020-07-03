@@ -8,11 +8,11 @@ tags: [typescript][javascript][react][microservices][docker][kubernets][googlecl
 comments: true
 ---
 
-Timeline: May - Jul 2020
+Timeline: May - Jun 2020
 
 Little confession before I begin to talk about the project: The name of this project is inspired by Rob Thomas' song "Little Wonders" - this song is the soundtrack of one of my very favourite animation movies ["Meet the Robinsons"](https://en.wikipedia.org/wiki/Meet_the_Robinsons). The song is actually not specifically related to the project in any way, I decided the name of the project months after starting working on it. I decided on this name one day when I was brainstorming a name (what a surprise), this name randomly came to my mind, and I realised that it actually does fit in with what I envisioned the scope & aim of this project to be - bringing little wonders to people's lives. As a bonus point, I later on also realised that the movie "Meet the Robinsons" is something that has always inspired and motivated me to ["keep moving forward"](https://www.youtube.com/watch?v=LmW3H-EXYS0) (a quote from the movie!), so I think this makes the name extra suitable for my FIRST, BIG, PRECIOUS PERSONAL PROJECT!
 
-**Description:** _littlewonders_ is a full-stack web application for people to post and join volunteer events that are happening around where they live. Currently, the main functionalities of the app are creating an account, creating events, signing up for events, cancelling the signups for events, sending confirmation emails that ask for user input to confirm signups and cancellations, sending certificates to people who have volunteered with some number of events, searching for events by category, using Google Maps for locating the events.
+**Description:** _littlewonders_ is a full-stack web application for people to post and join volunteer events that are happening around where they live. Currently, the main functionalities of the app are creating an account, creating events, signing up for events, cancelling the signups for events, sending confirmation emails that ask for user input to confirm signups and cancellations, using Google Maps for locating the events.
 
 **Inspiration:**
 
@@ -32,7 +32,7 @@ Each service that requires a database to store data has its own [MongoDB](https:
 Due to the event-based nature of asynchronous communication, sometimes events between services might get processed in an incorrect order - for example, two sequential events sent from one service might get assigned to different copies of another service, causing the events to be processed in the opposite order to which they were sent. To solve this issue around microservices concurrency / data consistency, I used the [mongoose-update-if-current](https://www.npmjs.com/package/mongoose-update-if-current) library which implements [Optimistic Concurrency Control](https://en.wikipedia.org/wiki/Optimistic_concurrency_control) with record versioning. With this approach, the primary service (the emitter) that is responsible of a record increments the version number of the record anytime a change is made to it, and the secondary services (the receivers) process an event only if the version number they have for the record is one less than the version number they receive from the event, ensuring that events will get processed in the order with which they were emitted.  
 Additionally, I used [SendGrid](https://sendgrid.com/) to add the functionalities of sending emails to users, and tracking their inputs to the emails.
 
-**Frontend:** Just like the backend-related services, the frontend of my application also runs in a Docker container. For the frontend, I used [Next.js](https://nextjs.org/), a React framework. I made use of the following functionalities of Next.js: dynamic routing on the client-side, pre-fetching data on the client-side, and server-side rendering. I also made use of the following React concepts - creating reusable components, higher-order components, and hooks.
+**Frontend:** Just like the backend-related services, the frontend of my application also runs in a Docker container. For the frontend, I used [Next.js](https://nextjs.org/), a React framework. I made use of the following functionalities of Next.js: dynamic routing on the client-side, pre-fetching data on the client-side, and server-side rendering. I also made use of React concepts such as hooks, and creating reusable components.
 
 Here's a summary of tools and technologies used in this application:
 
