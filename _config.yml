@@ -27,10 +27,11 @@ navbar-links:
   Personal Projects:
     - Little Wonders: 'projects/little-wonders/littlewonders'
     - Chrome Extensions: 'projects/chrome/chrome'
+    - Email Classifier: 'projects/emails/emails'
   Work Experience:
-    - Broadcom: 'https://www.google.com/'
+    - Broadcom: 'work-experience/broadcom/broadcom'
     - Bioinformatics: 'work-experience/btl/btl'
-  Resume: '' #this should eventually link to a webpage-like resume!
+  Resume: '' #this should eventually link to resume!
   About Me: 'aboutme'
 
 # --- Logo --- #
