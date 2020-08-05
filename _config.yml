@@ -4,7 +4,7 @@
 title: My portfolio
 
 # Short description of your site
-#description: A virtual proof that I'm awesome
+#description:
 
 # Your name to show in the footer
 author: Gokce Dilek
@@ -31,7 +31,7 @@ navbar-links:
   Work Experience:
     - Broadcom: 'work-experience/broadcom/broadcom'
     - Bioinformatics: 'work-experience/btl/btl'
-  Resume: '' #this should eventually link to resume!
+  Resume: '' #link to resume!
   About Me: 'aboutme'
 
 # --- Logo --- #

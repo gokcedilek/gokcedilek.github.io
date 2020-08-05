@@ -8,9 +8,9 @@ tags: [chrome][javascript]
 comments: true
 ---
 
-Timeline: Jun 2020
+Timeline: Jul 2020
 
-Here are some quick & easy (not so easy while working on it:) Google Chrome extensions I worked on - I wanted to explore developing extensions due to several reasons:
+Here are some quick & small (not so quick while working on it:) Google Chrome extensions I worked on - I wanted to explore developing extensions due to several reasons:
 
 - My general interest towards web development
 - My curiosity about how easy/hard it would be to get started with developing extensions
@@ -25,7 +25,7 @@ Challenges faced/Things learned:
 - using custom data types and ES6 modules in the extension
 - using the asynchronous [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
 
-**Project #2:** _Read Later_ (Incomplete, ongoing!)
+**Project #2:** _Read Later_ **(Incomplete, ongoing!)**
 This extension (is expected to implement:) implements a special bookmarks folder in Chrome to which the user can add webpages to review later, and the extension recommends one page to read from this folder everytime the user opens the Google home page.
 
 What has been implemented so far:
