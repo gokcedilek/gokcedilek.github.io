@@ -25,7 +25,7 @@ navbar-links:
     - Our Robot: 'projects/enph253/enph253-2019'
     - Financial Literacy: 'projects/cmd-f-2020/cmdf2020'
   Personal Projects:
-    - Little Wonders: 'projects/little-wonders/littlewonders'
+    - Microservices: 'projects/little-wonders/littlewonders'
     - Chrome Extensions: 'projects/chrome/chrome'
     - Email Classifier: 'projects/emails/emails'
   Work Experience:
